@@ -2,25 +2,25 @@ C++ code for Zhang et al. three-dimensional model of human atrial myocyte coupli
 _____________________________________________________________________________________________________
 ### Contents:
 
-* ReadMe.md:					this file  
+* ```ReadMe.md```:					this file  
 
-* Makefile:					the default make file  
-* build:						folder of object files  
-* run.slurm:				the command file in slurm-managed system   
+* ```Makefile```:					the default make file  
+* ```build```:						folder of object files  
+* ```run.slurm```:				the command file in slurm-managed system   
 
-* pace_2.cpp:					the main function with inputs: basic-cycle-length in ms, number of pacing beats, input file of tubular structure  
-* lib_cell: 					folder with all the functions  
-* pool_tubule: 				folder of input fles of tubular structures  
+* ```pace_2.cpp```:					the main function with inputs: basic-cycle-length in ms, number of pacing beats, input file of tubular structure  
+* ```lib_cell```: 					folder with all the functions  
+* ```pool_tubule```: 				folder of input fles of tubular structures  
 
-* global_result:				folder of output files (whole-cell averaged ion concentrations and ion currents)  
-* BinaryFiles: 				folder of output binary files (local CRU calcium concentration)  
+* ```global_result```:				folder of output files (whole-cell averaged ion concentrations and ion currents)  
+* ```BinaryFiles```: 				folder of output binary files (local CRU calcium concentration)  
 
-* steady_state_init: 			folder of files with initial steady state variables  
-* steady_state_output: 		folder of files with varible values at the end of pacing period   
+* ```steady_state_init```: 			folder of files with initial steady state variables  
+* ```steady_state_output```: 		folder of files with varible values at the end of pacing period   
 
 _____________________________________________________________________________________________________
-### sample command in the terminal command line:  
-make; ./pace_2 1000 28 "pool_tubule/tub_input_ver2_10.txt"
+### Sample command in the terminal command line:
+```make; ./pace_2 1000 28 "pool_tubule/tub_input_ver2_10.txt"```
 _____________________________________________________________________________________________________
 
 ### References:
