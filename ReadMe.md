@@ -20,7 +20,8 @@ ________________________________________________________________________________
 
 _____________________________________________________________________________________________________
 ### Sample command in the terminal command line:
-```make; 
+```bash
+make
 mkdir -p global_result # create folders for data ouput
 mkdir -p BinaryFiles
 ./pace_2 1000 28 "pool_tubule/tub_input_ver2_10.txt"
