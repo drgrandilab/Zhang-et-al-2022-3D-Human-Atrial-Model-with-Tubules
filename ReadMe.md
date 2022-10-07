@@ -24,6 +24,7 @@ ________________________________________________________________________________
 make
 mkdir -p global_result # create folders for data ouput
 mkdir -p BinaryFiles
+mkdir -p steady_state_output
 ./pace_2 1000 28 "pool_tubule/tub_input_ver2_10.txt"
 ```   
 _____________________________________________________________________________________________________
