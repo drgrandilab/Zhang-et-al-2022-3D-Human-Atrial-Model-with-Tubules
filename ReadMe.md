@@ -17,7 +17,7 @@ ________________________________________________________________________________
 
 * ```steady_state_init```: 			folder of files with initial steady state variables  
 * ```steady_state_output```: 		folder of files with varible values at the end of pacing period   
-
+* ```tubule_generator```: folder of files with the tubule generator
 _____________________________________________________________________________________________________
 ### Sample command in the terminal command line:
 ```bash
