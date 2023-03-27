@@ -14,7 +14,8 @@ This is a random-walk-based 3D tubular generator.
 2. size of the population (TUBULE_POPULATION_NUM)
 
 ### How to use this code?
-0. The default tubular length of 20 cells (19 cells with tubule + 1 detubulated cell) used in the publication are shown in line 62-65 in "tubule_population_generator.m". If you need to generate new tubular structures, please comment line 62-65 and uncomment line 49-59.
-1. Use Matlab to run "tubule_population_generator.m" (This could run without step 0)
-2. Validation figures will be generated in the same folder
-3. Specific data and paraview files will be output in 'TRIAL' folder
+0. Make a new folder "TRIAL"
+1. The default tubular length of 20 cells (19 cells with tubule + 1 detubulated cell) used in the publication are shown in line 62-65 in "tubule_population_generator.m". If you need to generate new tubular structures, please comment line 62-65 and uncomment line 49-59.
+2. Use Matlab to run "tubule_population_generator.m" (This could run without step 0)
+3. Validation figures will be generated in the same folder
+4. Specific data and paraview files will be output in 'TRIAL' folder
